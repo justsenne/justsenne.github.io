@@ -1,0 +1,15 @@
+.sectie1 {
+    Background: url('../image/berg.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	width: 102%;
+	height: 105%;
+	margin-left:  -0.7%;
+	margin-top: -1.75%;
+	z-index: 10;
+	position: absolute;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
