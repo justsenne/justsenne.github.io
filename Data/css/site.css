@@ -4,7 +4,7 @@ html, body {
 	margin-left: -0.1%;
 }
 .sectie1 {
-    Background: url('../image/berg.jpg');
+    Background: url('http://lorempixel.com/output/technics-q-c-1920-1080-7.jpg');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
