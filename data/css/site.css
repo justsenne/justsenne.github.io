@@ -4,7 +4,7 @@ html, body {
 	margin-left: -0.1%;
 }
 .sectie1 {
-    Background: url('http://lorempixel.com/output/technics-q-c-1920-1080-7.jpg');
+    Background: url('../image/berg.jpg');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,4 +17,30 @@ html, body {
 	position: absolute;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+}
+.sample-text {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+/* custom font */
+
+  @font-face {
+    font-family: 'Minnie';
+    src: url('fonts/Minnie2.eot');
+    src: url('fonts/Minnie2.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Minnie2.ttf') format('truetype'),
+         url('fonts/Minnie2.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+p,h1,h2,h3,h4,h5,h6 {
+	color: #d4ffff;
+	font-size: 250%;
+	Font-family: Minnie;
+	text-shadow:
+    -1.2px -1.2px 0 #000,  
+     1.2px -1.2px 0 #000,
+    -1.2px 1.2px 0 #000,
+     1.2px 1.2px 0 #000;
 }
